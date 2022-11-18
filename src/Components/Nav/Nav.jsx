@@ -1,11 +1,12 @@
 import React from 'react'
+import "./Nav.css"
 import {AiOutlineHome, AiOutlineUser, AiOutlineMessage} from "react-icons/ai"
 import {BiBook} from "react-icons/bi"
 import {MdOutlineHomeRepairService} from "react-icons/md"
 
 export default function Nav() {
   return (
-    <nav>
+    <nav className='nav'>
       <a href='#'><AiOutlineHome/></a>
       <a href="#about"><AiOutlineUser/></a>
       <a href="#experience"><BiBook/></a>
