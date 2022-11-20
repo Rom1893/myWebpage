@@ -1,4 +1,5 @@
 import React from 'react'
+import "./About.css"
 import { FaAward } from "react-icons/fa"
 import { FiUsers } from "react-icons/fi"
 
@@ -11,7 +12,7 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className="about__me-image">
-            <div className='image'/>
+            <div className='image' />
           </div>
         </div>
 
