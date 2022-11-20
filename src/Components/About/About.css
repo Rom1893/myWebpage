@@ -1,25 +1,24 @@
-.about__container{
+.about__container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
 
-.about__me-image{
+.about__me-image {
     width: 339px;
     aspect-ratio: 1/1;
-    background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
+    margin-left: 100px;
+    background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary),
+            transparent);
     display: grid;
     place-items: center;
     border-radius: 2rem;
 }
 
 
-.image{
+.image {
     background-image: url("../../Assets/group.jpg");
     width: 22rem;
     height: 21rem;
@@ -29,12 +28,11 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition)
-
 }
 
-.image:hover{
+.image:hover {
     transform: rotate(0);
-    
+
 }
 
 .about__cards {
@@ -52,23 +50,72 @@
     transition: var(--transition);
 }
 
-.about__card:hover{
+.about__card:hover {
     background-color: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
-.about__icon{
+.about__icon {
     color: var(--color-primary);
-    font-size:1.4rem ;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
-.about__card{
+.about__card {
     font-size: 1.2rem;
 }
 
 .about__card small {
     font-size: .7rem;
     color: var(--color-light);
+}
+
+.about__content p {
+    margin: 2rem 0 2.6rem;
+    color: color(--color-light)
+}
+
+/*  ============= MEDIA QUERIES MEDIUM DEVICES ============== */
+
+@media screen and (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__me-image {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .image {
+        width: 25rem;
+        height: 24rem;
+    }
+
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .about__me-image {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__content {
+        text-align: center;
+    }
+
+    .about__content p {
+        margin: 1.5rem 0;
+    }
 }

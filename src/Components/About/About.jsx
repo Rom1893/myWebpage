@@ -10,10 +10,8 @@ const About = () => {
       <h2>About me</h2>
 
       <div className='container about__container'>
-        <div className='about__me'>
-          <div className="about__me-image">
-            <div className='image' />
-          </div>
+        <div className="about__me-image">
+          <div className='image' />
         </div>
 
 
@@ -41,9 +39,10 @@ const About = () => {
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae obcaecati similique assumenda minus asperiores, molestias, corporis repellat veniam, illum enim perspiciatis odit officia sint aspernatur eum sapiente temporibus! Eaque, illum.
           </p>
+          <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
         </div>
 
-        <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
+
       </div>
 
     </section>
