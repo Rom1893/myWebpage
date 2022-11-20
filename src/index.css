@@ -38,7 +38,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/Assets/bg-texture.png);
+  background-image: url(../src/Assets/svg-bg6.svg);
 }
 
 /* General Styles ============================*/
@@ -135,8 +135,7 @@ img {
   }
 
 
-  section > h2 {
+  section>h2 {
     margin-bottom: 2rem;
   }
 }
-

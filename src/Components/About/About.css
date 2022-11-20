@@ -5,7 +5,7 @@
 }
 
 .about__me-image{
-    width: 345px;
+    width: 339px;
     aspect-ratio: 1/1;
     background: linear-gradient(
         45deg,
@@ -27,7 +27,7 @@
     background-size: 130%;
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(8deg);
+    transform: rotate(10deg);
     transition: var(--transition)
 
 }
@@ -41,4 +41,34 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+}
+
+.about__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about__card:hover{
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about__icon{
+    color: var(--color-primary);
+    font-size:1.4rem ;
+    margin-bottom: 1rem;
+}
+
+.about__card{
+    font-size: 1.2rem;
+}
+
+.about__card small {
+    font-size: .7rem;
+    color: var(--color-light);
 }
