@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Experience"
+import "./Experience.css"
 import { BsFillPatchCheckFill } from "react-icons/bs"
 
 const Experience = () => {
@@ -13,78 +13,105 @@ const Experience = () => {
           <h3>Development Experience</h3>
           <div className="experience__content">
             <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>React.js</h4>
-              <small className='text-light'>huh?</small>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>React.js</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>ReactRouter</h4>
-              <small className='text-light'>huh?</small>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>ReactRouter</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>HTML</h4>
-              <small className='text-light'>huh?</small>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>HTML</h4>
-              <small className='text-light'>huh?</small>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>HTML</h4>
-              <small className='text-light'>huh?</small>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>HTML</h4>
-              <small className='text-light'>huh?</small>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
           </div>
         </div>
         <div className="experience-back">
-        <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>HTML</h4>
-              <small className='text-light'>huh?</small>
+          <h3>ppl Experience</h3>
+          <div className="experience__content">
+          <article className='experience_details'>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>React.js</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>HTML</h4>
-              <small className='text-light'>huh?</small>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>ReactRouter</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>HTML</h4>
-              <small className='text-light'>huh?</small>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>HTML</h4>
-              <small className='text-light'>huh?</small>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>HTML</h4>
-              <small className='text-light'>huh?</small>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
 
             <article className='experience_details'>
-              <BsFillPatchCheckFill/>
-              <h4>HTML</h4>
-              <small className='text-light'>huh?</small>
+              <BsFillPatchCheckFill className="experience_details-icons" />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>huh?</small>
+              </div>
             </article>
+          </div>
         </div>
       </div>
 
