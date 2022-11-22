@@ -131,6 +131,11 @@ img {
 /*  ============= MEDIA QUERIES SMALL DEVICES ============== */
 
 @media screen and (max-width: 600px) {
+
+  footer {
+    margin-top: 200px;
+  }
+
   .container {
     width: var(--container-width-sm);
   }
