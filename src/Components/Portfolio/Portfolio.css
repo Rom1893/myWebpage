@@ -49,7 +49,7 @@
 .portfolio_image3 {
     background-image: url("../../Assets/Yahtzee.png");
     background-position: center;
-    background-size: 600px auto;
+    background-size: 610px auto;
     background-repeat: no-repeat;
     border-radius: 1.5rem;
     width: 100%;
@@ -74,9 +74,9 @@
     height: 21.5rem;
 }
 .portfolio_image6 {
-    background-image: url("../../Assets/index.jpg");
+    background-image: url("https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80");
     background-position: center;
-    background-size: 700px auto;
+    background-size: 550px auto;
     background-repeat: no-repeat;
     border-radius: 1.5rem;
     width: 100%;

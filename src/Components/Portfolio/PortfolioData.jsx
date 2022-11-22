@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        title: "Color Picker App",
+        title: "Color Picker App (Render)",
         github: "https://github.com",
         demo: "https://github.com",
         
@@ -17,7 +17,7 @@ export default [
 
     {
         id: 3,
-        title: "Yahtzee",
+        title: "Yahtzee (Codesandbox)",
         github: "https://github.com",
         demo: "https://github.com",
         
@@ -25,7 +25,7 @@ export default [
 
     {
         id: 4,
-        title: "Lights Out",
+        title: "Lights Out (Codesandbox)",
         github: "https://github.com",
         demo: "https://github.com",
         
@@ -41,7 +41,7 @@ export default [
 
     {
         id: 6,
-        title: "Data Science Thesis",
+        title: "Data Science Thesis (Ppt)",
         github: "https://github.com",
         demo: "https://github.com",
         
