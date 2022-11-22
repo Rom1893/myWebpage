@@ -1,21 +1,22 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import "./Contact.css"
 import { MdOutlineMailOutline } from "react-icons/md"
 import { BsWhatsapp } from "react-icons/bs"
 import emailjs from '@emailjs/browser';
-import * as dotenv from 'dotenv'
 
 const Contact = () => {
 
   const form = useRef();
 
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.SERVICE, '', form.current, '')
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_KEY, process.env.REACT_APP_TEMPLATE, form.current, process.env.REACT_APP_PUBLIC)
     
     e.target.reset()
   };
+
 
   return (
     <section id='contact'>
