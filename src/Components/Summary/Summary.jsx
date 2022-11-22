@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Summary.css"
 import { AiOutlineCheck } from "react-icons/ai"
 
 export default function Summary() {
@@ -14,11 +15,34 @@ export default function Summary() {
           </div>
           <ul className='summary_list'>
             <li>
-              <AiOutlineCheck />
+              <AiOutlineCheck className='summary_icon' />
               <p>IM GOOD</p>
             </li>
+            <li>
+              <AiOutlineCheck className='summary_icon' />
+              <p>IM GOOD</p>
+            </li>
+            <li>
+              <AiOutlineCheck className='summary_icon' />
+              <p>IM GOOD</p>
+            </li>
+            <li>
+              <AiOutlineCheck className='summary_icon' />
+              <p>IM GOOD</p>
+            </li>
+            <li>
+              <AiOutlineCheck className='summary_icon' />
+              <p>IM GOOD</p>
+            </li>
+            <li>
+              <AiOutlineCheck className='summary_icon' />
+              <p>IM GOOD</p>
+            </li>
+            
           </ul>
         </article>
+
+        <div className="summary_image"></div>
       </div>
     </section>
   )
