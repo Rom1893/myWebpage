@@ -12,6 +12,12 @@
     transition: var(--transition);
 }
 
+.port {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .portfolio_item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
@@ -25,49 +31,55 @@
 .portfolio_image1 {
     background-image: url("../../Assets/index.jpg");
     background-position: center;
-    background-size: 190%;
+    background-size: 710px auto;
+    background-repeat: no-repeat;
     border-radius: 1.5rem;
-    width: 24rem;
+    width: 100%;
     height: 21.5rem;
 }
 .portfolio_image2 {
     background-image: url("../../Assets/title.jpg");
     background-position: center;
-    background-size: 190%;
+    background-size: 730px auto;
+    background-repeat: no-repeat;
     border-radius: 1.5rem;
-    width: 24rem;
+    width: 100%;
     height: 21.5rem;
 }
 .portfolio_image3 {
     background-image: url("../../Assets/Yahtzee.png");
     background-position: center;
-    background-size: 130%;
+    background-size: 600px auto;
+    background-repeat: no-repeat;
     border-radius: 1.5rem;
-    width: 24rem;
+    width: 100%;
     height: 21.5rem;
 }
 .portfolio_image4 {
     background-image: url("../../Assets/lights\ out.png");
     background-position: center;
-    background-size: 100%;
+    background-size: 400px auto;
+    background-repeat: no-repeat;
     border-radius: 1.5rem;
-    width: 24rem;
+    width: 100%;
     height: 21.5rem;
 }
 .portfolio_image5 {
     background-image: url("../../Assets/thispage.png");
     background-position: center;
-    background-size: 150%;
+    background-size: 600px auto;
+    background-repeat: no-repeat;
     border-radius: 1.5rem;
-    width: 24rem;
+    width: 100%;
     height: 21.5rem;
 }
 .portfolio_image6 {
     background-image: url("../../Assets/index.jpg");
     background-position: center;
-    background-size: 190%;
+    background-size: 700px auto;
+    background-repeat: no-repeat;
     border-radius: 1.5rem;
-    width: 24rem;
+    width: 100%;
     height: 21.5rem;
 }
 
@@ -89,7 +101,17 @@
 
 @media screen and (max-width: 600px) {
 
+    .portfolio_item{
+        width: 90%;
+    }
+
+    .portfolio_image1{
+        width: 100%;
+        background-size: 530px 340px;
+    }
+
     .portfolio__container {
+        margin-left: 10%;
         grid-template-columns: 1fr ;
         gap: 1rem;
     }
