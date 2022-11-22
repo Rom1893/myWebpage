@@ -3,6 +3,7 @@ import "./Contact.css"
 import { MdOutlineMailOutline } from "react-icons/md"
 import { BsWhatsapp } from "react-icons/bs"
 import emailjs from '@emailjs/browser';
+import * as dotenv from 'dotenv'
 
 const Contact = () => {
 
@@ -11,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_3adnpq8', 'template_hrl6n3e', form.current, 'FI7Xyt0pfSd6HCgLA')
+    emailjs.sendForm(process.env.SERVICE, '', form.current, '')
     
     e.target.reset()
   };
