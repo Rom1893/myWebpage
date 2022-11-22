@@ -17,16 +17,52 @@
     background: transparent;
 }
 
-.portfolio_item-image {
-    display: flex;
-    overflow: hidden;
-}
 
 .portfolio_item h3 {
     margin: 1.2rem 0 2rem;
 }
 
-.portfolio_image {
+.portfolio_image1 {
+    background-image: url("../../Assets/index.jpg");
+    background-position: center;
+    background-size: 190%;
+    border-radius: 1.5rem;
+    width: 24rem;
+    height: 21.5rem;
+}
+.portfolio_image2 {
+    background-image: url("../../Assets/title.jpg");
+    background-position: center;
+    background-size: 190%;
+    border-radius: 1.5rem;
+    width: 24rem;
+    height: 21.5rem;
+}
+.portfolio_image3 {
+    background-image: url("../../Assets/Yahtzee.png");
+    background-position: center;
+    background-size: 130%;
+    border-radius: 1.5rem;
+    width: 24rem;
+    height: 21.5rem;
+}
+.portfolio_image4 {
+    background-image: url("../../Assets/lights\ out.png");
+    background-position: center;
+    background-size: 100%;
+    border-radius: 1.5rem;
+    width: 24rem;
+    height: 21.5rem;
+}
+.portfolio_image5 {
+    background-image: url("../../Assets/thispage.png");
+    background-position: center;
+    background-size: 150%;
+    border-radius: 1.5rem;
+    width: 24rem;
+    height: 21.5rem;
+}
+.portfolio_image6 {
     background-image: url("../../Assets/index.jpg");
     background-position: center;
     background-size: 190%;
