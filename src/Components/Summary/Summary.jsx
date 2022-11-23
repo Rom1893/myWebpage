@@ -42,7 +42,7 @@ export default function Summary() {
           </ul>
         </article>
 
-        <div className="summary_image"></div>
+        <div className="summary_image"/>
       </div>
     </section>
   )
