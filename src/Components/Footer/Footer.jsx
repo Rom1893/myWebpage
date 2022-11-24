@@ -16,8 +16,8 @@ export default function Footer() {
       </ul>
 
       <div className="footer_social">
-        <a href="https://linkedin.com" target="_blank"><BsLinkedin size={35} /></a>
-        <a href="https://github.com" target="_blank"><BsGithub size={35} /></a>
+        <a href="https://www.linkedin.com/in/rodrigo-mor%C3%A1n-figueroa-6a944316b/" target="_blank"><BsLinkedin size={35} /></a>
+        <a href="https://github.com/Rom1893" target="_blank"><BsGithub size={35} /></a>
       </div>
     </footer>
   )
