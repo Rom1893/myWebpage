@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Portfolio.css"
 import PortfolioData from './PortfolioData'
+import ppt from "../../Assets/RodrigoMoran-Congress.pdf"
 
 export default function Portfolio() {
   return (
@@ -14,12 +15,30 @@ export default function Portfolio() {
               <div className={`portfolio_image${m.id}`} />
               <h3>{m.title}</h3>
               <div className="portoflio-item-cta">
-                <a href="https://github.com" className='btn'>Github</a>
-                <a href="https://github.com" className='btn btn-primary'>Live Demo</a>
+                <a href={m.github} target="_blank" className='btn'>Github</a>
+                <a href={m.demo} target="_blank" className='btn btn-primary'>Live Demo</a>
               </div>
             </div>
           </article>
         ))}
+        <article className='portfolio_item'>
+          <div className="port">
+            <div className="portfolio_image5" />
+            <h3>This Portfolio Page</h3>
+            <div className="portoflio-item-cta">
+              <a href="https://github.com/Rom1893/myWebpage" target="_blank" className='btn'>Github</a>
+            </div>
+          </div>
+        </article>
+        <article className='portfolio_item'>
+          <div className="port">
+            <div className="portfolio_image6" />
+            <h3>Data Science Thesis (Congress Presentation)</h3>
+            <div className="portoflio-item-cta">
+              <a href={ppt} download target="_blank" className='btn btn-primary'>Download</a>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
   )
