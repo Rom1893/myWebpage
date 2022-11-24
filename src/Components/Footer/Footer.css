@@ -50,6 +50,17 @@ footer a {
     border-color: var(--color-primary);
 }
 
+/*  ============= MEDIA QUERIES MEDIUM DEVICES ============== */
+
+@media screen and (max-width: 1024px) {
+
+    footer{
+        margin-top: 200px;
+    }
+  
+  }
+
+
 /*  ============= MEDIA QUERIES SMALL DEVICES ============== */
 
 @media screen and (max-width: 600px) {

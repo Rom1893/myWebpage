@@ -63,3 +63,37 @@
     align-self: center;
     margin-left: 25%;
 }
+
+/*  ============= MEDIA QUERIES MEDIUM DEVICES ============== */
+
+@media screen and (max-width: 1024px) {
+
+  #Summary{
+    margin-top: 150px;
+  }
+
+  .summary_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+  }
+
+  .summary_image{
+    margin-top: 20px;
+    margin-right: 190px;
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    
+
+
+    .summary_image{
+        margin: 35px auto 0 auto;
+        width: 90%;
+      }
+
+}
