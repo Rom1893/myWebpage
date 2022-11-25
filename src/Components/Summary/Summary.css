@@ -68,9 +68,7 @@
 
 @media screen and (max-width: 1024px) {
 
-  #Summary{
-    margin-top: 150px;
-  }
+
 
   .summary_container{
     display: flex;

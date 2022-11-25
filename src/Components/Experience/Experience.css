@@ -46,7 +46,7 @@
 @media screen and (max-width: 1024px) {
 
     #experience{
-        margin-top: 220px;
+        margin-top: 420px;
     }
 
     .experience__container{
@@ -68,7 +68,7 @@
 @media screen and (max-width: 600px) {
     
     #experience{
-        margin-top: 300px;
+        margin-top: 600px;
     }
 
     .experience__container{
