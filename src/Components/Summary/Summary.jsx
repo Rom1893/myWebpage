@@ -16,27 +16,19 @@ export default function Summary() {
           <ul className='summary_list'>
             <li>
               <AiOutlineCheck className='summary_icon' />
-              <p>I excel at problem solving, helps me out solving problems even in cases with little to no previous knowledge</p>
+              <p>Advanced problem-solving skills, with a solid background on science methodologies</p>
             </li>
             <li>
               <AiOutlineCheck className='summary_icon' />
-              <p>I am 100% bilingual in Spanish-English</p>
+              <p>Fluency in both English and Spanish</p>
             </li>
             <li>
               <AiOutlineCheck className='summary_icon' />
-              <p>I believe that a good work environment is essential for creating a good product</p>
+              <p>A good working environment is essential for creating good products!</p>
             </li>
             <li>
               <AiOutlineCheck className='summary_icon' />
-              <p>I possess a methodical way for approaching different problems due to my science background</p>
-            </li>
-            <li>
-              <AiOutlineCheck className='summary_icon' />
-              <p>Practical, friendly, I always look for the most positive outcome of a situation</p>
-            </li>
-            <li>
-              <AiOutlineCheck className='summary_icon' />
-              <p>IM GOOD</p>
+              <p>And, of course, looking at the bright side of life and issues.</p>
             </li>
             
           </ul>

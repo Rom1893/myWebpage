@@ -37,15 +37,20 @@ const About = () => {
           </div>
 
           <p>
-            Since I was a child, I grew around technology, 
-            I learned how to build a pc from a young age, 
-            how it worked and what needed for it to work in terms 
-            of hardware and software. I decided to learn how to code 
-            not only to find a job in this field, but out of pure passion. 
-            Software development has offered me an engaging challenge to continually 
-            learn and improve my skills in creating high quality software. 
-            I usually find myself coding or learning about new technologies in my free time, 
-            this has definitely become a big part of my life.
+            As a child, I grew surrounded by computer technology.
+            At the age of seven, I was fascinated with building my own PC- in times that this was
+            not as easy and accessible as nowadays. After a lot of trial and error and a good dose
+            of persistence, I soon realized how things worked under the hood: how different objects
+            worked together and what hardware and software requirements I would need for my projects.
+            Later on, after completing my degree in biochemistry, coding got into my way - and,
+            I have to say, with the very same joy I experienced as a child. Naturally, coding would
+            open up a myriad of opportunities with my background in science, workwise. Yet the real
+            reason to learn to code came out of pure passion: I just like coding.
+            Software development does not need an introduction nowadays. It's become an
+            engaging and challenging field; one that perfectly fits with my aims and interests.
+            This is precisely where I am now, perfecting my IT skills every day, coding during
+            my spare times and checking on new technologies (which has become my hobby).
+            All this while being a Biochemist.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
         </div>
