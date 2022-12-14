@@ -87,7 +87,10 @@
 
 @media screen and (max-width: 600px) {
     
-
+    .summary_container{
+        width: 100%;
+        margin-left: 30px;
+    }
 
     .summary_image{
         margin: 35px auto 0 auto;

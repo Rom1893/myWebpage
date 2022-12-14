@@ -73,7 +73,8 @@ input, textarea{
 @media screen and (max-width: 600px) {
 
     #contact{
-        margin-top: 2800px;
+        margin-top: 2900px;
+        width: 110vw;
     }
     
     .container.contact_container{
