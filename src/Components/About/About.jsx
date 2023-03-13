@@ -37,20 +37,19 @@ const About = () => {
           </div>
 
           <p>
-            As a child, I grew surrounded by computer technology.
-            At the age of seven, I was fascinated with building my own PC- in times that this was
-            not as easy and accessible as nowadays. After a lot of trial and error and a good dose
-            of persistence, I soon realized how things worked under the hood: how different objects
-            worked together and what hardware and software requirements I would need for my projects.
-            Later on, after completing my degree in biochemistry, coding got into my way - and,
-            I have to say, with the very same joy I experienced as a child. Naturally, coding would
-            open up a myriad of opportunities with my background in science, workwise. Yet the real
-            reason to learn to code came out of pure passion: I just like coding.
-            Software development does not need an introduction nowadays. It's become an
-            engaging and challenging field; one that perfectly fits with my aims and interests.
-            This is precisely where I am now, perfecting my IT skills every day, coding during
-            my spare times and checking on new technologies (which has become my hobby).
-            All this while being a Biochemist.
+          As a passionate Full-Stack developer, I have extensive 
+          experience using HTML, CSS, JavaScript, Node, Express, MongoDB, 
+          Mongoose, React, ReactHooks, React-Router, Material UI, Bootstrap, Bulma, 
+          and Next.js. I take pride in my ability to solve complex problems and thrive 
+          in collaborative environments. My bilingual skills have allowed me to communicate 
+          effectively with clients and colleagues alike. My passion for technology began at a young age, 
+          and I continue to learn new skills and coding techniques in my free time. I hold a degree in 
+          Biochemistry and completed my thesis in Data Science Bioinformatics. I made the transition to a 
+          web developer career and am currently a Jr Developer, with the goal of becoming a senior developer 
+          in the future.
+          In summary, I bring a diverse skill set, 
+          a passion for technology, and a commitment to personal 
+          and professional growth to my work as a Full-Stack developer
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
         </div>
